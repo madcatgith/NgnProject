@@ -1,0 +1,879 @@
+2017-02-08T17:00:56.058 Log exists
+2017-02-09T11:34:14.124 @0151012147#
+2017-02-09T11:34:14.673 @0151012147#
+2017-02-09T11:34:15.275 @0151012147#
+2017-02-09T11:34:15.875 @0151012147#
+2017-02-09T11:34:16.467 @0151012147#
+2017-02-09T11:34:17.069 @0151012147#
+2017-02-09T11:34:17.670 @0151012147#
+2017-02-09T11:34:18.287 @0151012147#
+2017-02-09T11:34:18.893 @0151012147#
+2017-02-09T11:34:19.510 @0151012147#
+2017-02-09T11:34:20.112 @0151012147#
+2017-02-09T11:34:20.713 @0151012147#
+2017-02-09T11:34:21.336 @0151012147#
+2017-02-09T11:34:21.937 @0151012147#
+2017-02-09T11:34:22.539 @0151012147#
+2017-02-09T11:34:23.140 @0151012147#
+2017-02-09T11:34:23.757 @0151012147#
+2017-02-09T11:34:24.346 @0151012147#
+2017-02-09T11:34:24.948 @0151012147#
+2017-02-09T11:34:25.565 @0151012147#
+2017-02-09T11:34:26.150 @0151012147#
+2017-02-09T11:34:26.752 @0151012147#
+2017-02-09T11:34:27.353 @0151012147#
+2017-02-09T11:34:27.955 @0151012147#
+2017-02-09T11:34:28.572 @0151012147#
+2017-02-09T11:34:29.174 @0151012147#
+2017-02-09T11:34:29.775 @0151012147#
+2017-02-09T11:34:30.392 @0151012147#
+2017-02-09T11:34:30.978 @0151012147#
+2017-02-09T11:34:31.595 @0151012147#
+2017-02-09T11:34:32.211 @0151012147#
+2017-02-09T11:34:32.820 @0151012147#
+2017-02-09T11:34:33.434 @0151012147#
+2017-02-09T11:34:34.040 @0151012147#
+2017-02-09T11:34:34.642 @0151012147#
+2017-02-09T11:34:35.274 @0151012147#
+2017-02-09T11:34:35.854 @0151012147#
+2017-02-09T11:34:36.460 @0151012147#
+2017-02-09T11:34:37.062 @0151012147#
+2017-02-09T11:34:37.663 @0151012147#
+2017-02-09T11:34:38.265 @0151012147#
+2017-02-09T11:34:38.866 @0151012147#
+2017-02-09T11:34:39.468 @0151012147#
+2017-02-09T11:34:40.069 @0151012147#
+2017-02-09T11:34:40.671 @0151012147#
+2017-02-09T11:34:41.272 @0151012147#
+2017-02-09T11:34:41.874 @0151012147#
+2017-02-09T11:34:42.475 @0151012147#
+2017-02-09T11:34:43.076 @0151012147#
+2017-02-09T11:34:43.678 @0151012147#
+2017-02-09T11:34:44.279 @0151012147#
+2017-02-09T11:34:44.881 @0151012147#
+2017-02-09T11:34:45.482 @0151012147#
+2017-02-09T11:34:46.084 @0151012147#
+2017-02-09T11:34:46.685 @0151012147#
+2017-02-09T11:34:47.287 @0151012147#
+2017-02-09T11:34:47.888 @0151012147#
+2017-02-09T11:34:48.490 @0151012147#
+2017-02-09T11:34:49.091 @0151012147#
+2017-02-09T11:34:49.693 @0151012147#
+2017-02-09T11:34:50.295 @0151012147#
+2017-02-09T11:34:50.896 @0151012147#
+2017-02-09T11:34:51.498 @0151012147#
+2017-02-09T11:34:52.099 @0151012147#
+2017-02-09T11:34:52.700 @0151012147#
+2017-02-09T11:34:53.302 @0151012147#
+2017-02-09T11:34:53.903 @0151012147#
+2017-02-09T11:34:54.505 @0151012147#
+2017-02-09T11:34:55.107 @0151012147#
+2017-02-09T11:34:55.708 @0151012147#
+2017-02-09T11:34:56.310 @0151012147#
+2017-02-09T11:34:56.911 @0151012147#
+2017-02-09T11:34:57.512 @0151012147#
+2017-02-09T11:34:58.114 @0151012147#
+2017-02-09T11:34:58.731 @0151012147#
+2017-02-09T11:34:59.317 @0151012147#
+2017-02-09T11:34:59.918 @0151012147#
+2017-02-09T11:35:00.520 @0151012147#
+2017-02-09T11:35:01.122 @0151012147#
+2017-02-09T11:35:01.739 @0151012147#
+2017-02-09T11:35:02.325 @0151012147#
+2017-02-09T11:35:02.926 @0151012147#
+2017-02-09T11:35:03.528 @0151012147#
+2017-02-09T11:35:04.129 @0151012147#
+2017-02-09T11:35:04.746 @0151012147#
+2017-02-09T11:35:05.332 @0151012147#
+2017-02-09T11:35:05.934 @0151012147#
+2017-02-09T11:35:06.535 @0151012147#
+2017-02-09T11:35:07.137 @0151012147#
+2017-02-09T11:35:07.754 @0151012147#
+2017-02-09T11:35:08.340 @0151012147#
+2017-02-09T11:35:08.942 @0151012147#
+2017-02-09T11:35:09.567 @0151012147#
+2017-02-09T11:35:10.169 @0151012147#
+2017-02-09T11:35:10.771 @0151012147#
+2017-02-09T11:35:11.372 @0151012147#
+2017-02-09T11:35:11.974 @0151012147#
+2017-02-09T11:35:12.575 @0151012147#
+2017-02-09T11:35:13.177 @0151012147#
+2017-02-09T11:35:13.810 @0151012147#
+2017-02-09T11:35:14.445 @0151012147#
+2017-02-09T11:35:15.054 @0151012147#
+2017-02-09T11:35:15.659 @0151012147#
+2017-02-09T11:35:16.260 @0151012147#
+2017-02-09T11:35:16.862 @0151012147#
+2017-02-09T11:35:17.463 @0151012147#
+2017-02-09T11:35:18.065 @0151012147#
+2017-02-09T11:35:18.667 @0151012147#
+2017-02-09T11:35:19.268 @0151012147#
+2017-02-09T11:35:19.870 @0151012147#
+2017-02-09T11:35:20.486 @0151012147#
+2017-02-09T11:35:21.094 @0151012147#
+2017-02-09T11:35:21.696 @0151012147#
+2017-02-09T11:35:22.297 @0151012147#
+2017-02-09T11:35:22.914 @0151012147#
+2017-02-09T11:35:23.516 @0151012147#
+2017-02-09T11:35:24.117 @0151012147#
+2017-02-09T11:35:24.718 @0151012147#
+2017-02-09T11:35:25.320 @0151012147#
+2017-02-09T14:42:58.290 @0151010044#
+2017-02-09T14:42:58.836 @0151010044#
+2017-02-09T14:42:59.438 @0151010044#
+2017-02-09T14:43:00.038 @0151010044#
+2017-02-09T14:43:00.638 @0151010044#
+2017-02-09T14:43:01.238 @0151010044#
+2017-02-09T14:43:01.838 @0151010044#
+2017-02-09T14:43:02.439 @0151010044#
+2017-02-09T14:43:03.039 @0151010044#
+2017-02-09T14:43:03.639 @0151010044#
+2017-02-09T14:43:04.240 @0151010044#
+2017-02-09T14:43:04.841 @0151010044#
+2017-02-09T14:43:05.441 @0151010044#
+2017-02-09T14:43:06.041 @0151010044#
+2017-02-09T14:43:06.642 @0151010044#
+2017-02-09T14:43:07.243 @0151012147#
+2017-02-09T14:43:07.845 @0151012147#
+2017-02-09T14:43:08.446 @0151012147#
+2017-02-09T14:43:09.047 @0151012147#
+2017-02-09T14:43:09.648 @0151012147#
+2017-02-09T14:43:10.248 @0151012147#
+2017-02-09T14:43:11.327 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:11.442 @0144010141#
+2017-02-09T14:43:11.545 @0147010142#
+2017-02-09T14:43:11.927 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:12.152 @015105270000000045#
+2017-02-09T14:43:12.527 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:12.752 @015105270000000045#
+2017-02-09T14:43:13.128 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:13.354 @015105270000000045#
+2017-02-09T14:43:13.729 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:13.955 @015105270000000045#
+2017-02-09T14:43:14.331 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:14.556 @01510527000000284F#
+2017-02-09T14:43:14.931 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:15.159 @015105270000002A36#
+2017-02-09T14:43:15.532 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:15.759 @015105270000006645#
+2017-02-09T14:43:16.132 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:16.359 @01510527000000914D#
+2017-02-09T14:43:16.732 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:16.959 @01510527000000BC44#
+2017-02-09T14:43:17.332 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:17.562 @01510527000000DC42#
+2017-02-09T14:43:17.932 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:18.161 @01510527000000F734#
+2017-02-09T14:43:18.533 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:18.762 @01510527000000FD47#
+2017-02-09T14:43:19.134 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:19.362 @015105270000012442#
+2017-02-09T14:43:19.735 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:19.963 @015105270000015849#
+2017-02-09T14:43:20.336 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:20.565 @015105270000018448#
+2017-02-09T14:43:20.936 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:21.169 @01510527000001A336#
+2017-02-09T14:43:21.536 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:21.763 @01510527000001AD41#
+2017-02-09T14:43:22.137 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:22.363 @01510527000001CD43#
+2017-02-09T14:43:22.738 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:22.966 @01510527000001E839#
+2017-02-09T14:43:23.339 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:23.567 @015105270000021F30#
+2017-02-09T14:43:23.940 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:24.168 @015105270000025341#
+2017-02-09T14:43:24.540 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:24.768 @01510527000002834C#
+2017-02-09T14:43:25.140 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:25.369 @01510527000002AD42#
+2017-02-09T14:43:25.740 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:25.968 @01510527000002D536#
+2017-02-09T14:43:26.340 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:26.569 @01510527000002F839#
+2017-02-09T14:43:26.940 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:27.170 @01510527000003294D#
+2017-02-09T14:43:27.540 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:27.770 @015105270000035546#
+2017-02-09T14:43:28.140 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:28.370 @01510527000003844A#
+2017-02-09T14:43:28.740 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:28.973 @01510527000003AA46#
+2017-02-09T14:43:29.340 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:29.576 @01510527000003C93C#
+2017-02-09T14:43:29.940 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:30.172 @01510527000003E83B#
+2017-02-09T14:43:30.540 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:30.773 @01510527000003E83B#
+2017-02-09T14:43:31.141 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:31.374 @01510527000003E83B#
+2017-02-09T14:43:31.741 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:31.975 @01510527000003E83B#
+2017-02-09T14:43:32.348 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:32.575 @01510527000003E83B#
+2017-02-09T14:43:32.942 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:33.176 @01510527000003E83B#
+2017-02-09T14:43:33.543 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:43:33.766 @0151012147#
+2017-02-09T14:43:34.143 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:34.367 @0151012147#
+2017-02-09T14:43:34.743 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:34.967 @0151012147#
+2017-02-09T14:43:35.343 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:35.567 @0151012147#
+2017-02-09T14:43:35.943 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:36.167 @0151012147#
+2017-02-09T14:43:36.543 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:36.768 @0151012147#
+2017-02-09T14:43:37.143 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:37.370 @0151012147#
+2017-02-09T14:43:37.743 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:37.972 @0151012147#
+2017-02-09T14:43:38.343 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:38.572 @0151012147#
+2017-02-09T14:43:38.945 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:39.173 @0151012147#
+2017-02-09T14:43:39.545 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:39.774 @0151012147#
+2017-02-09T14:43:40.145 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:40.374 @0151012147#
+2017-02-09T14:43:40.746 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:40.973 @0151012147#
+2017-02-09T14:43:41.347 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:41.574 @0151012147#
+2017-02-09T14:43:41.948 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:42.174 @0151012147#
+2017-02-09T14:43:42.548 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:42.774 @0151012147#
+2017-02-09T14:43:43.149 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:43.374 @0151012147#
+2017-02-09T14:43:43.750 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:43.974 @0151012147#
+2017-02-09T14:43:44.351 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:44.575 @0151012147#
+2017-02-09T14:43:44.954 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:45.177 @0151012147#
+2017-02-09T14:43:45.555 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:45.778 @0151012147#
+2017-02-09T14:43:46.157 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:46.379 @0151012147#
+2017-02-09T14:43:46.757 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:46.980 @0151012147#
+2017-02-09T14:43:47.357 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:47.580 @0151012147#
+2017-02-09T14:43:47.959 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:48.180 @0151012147#
+2017-02-09T14:43:48.559 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:48.780 @0151012147#
+2017-02-09T14:43:49.159 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:49.381 @0151012147#
+2017-02-09T14:43:49.761 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:49.981 @0151012147#
+2017-02-09T14:43:50.362 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:50.583 @0151012147#
+2017-02-09T14:43:50.962 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:51.184 @0151012147#
+2017-02-09T14:43:51.562 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:51.784 @0151012147#
+2017-02-09T14:43:52.163 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:52.385 @0151012147#
+2017-02-09T14:43:52.763 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:52.986 @0151012147#
+2017-02-09T14:43:53.365 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:53.587 @0151012147#
+2017-02-09T14:43:53.967 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:54.189 @0151012147#
+2017-02-09T14:43:54.568 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:54.790 @0151012147#
+2017-02-09T14:43:55.170 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:55.391 @0151012147#
+2017-02-09T14:43:55.770 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:55.990 @0151012147#
+2017-02-09T14:43:56.370 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:56.591 @0151012147#
+2017-02-09T14:43:56.970 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:57.192 @0151012147#
+2017-02-09T14:43:57.570 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:57.792 @0151012147#
+2017-02-09T14:43:58.170 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:58.394 @0151012147#
+2017-02-09T14:43:58.771 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:58.994 @0151012147#
+2017-02-09T14:43:59.372 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:43:59.594 @0151012147#
+2017-02-09T14:43:59.972 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:44:00.193 @0151012147#
+2017-02-09T14:44:00.572 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:44:00.793 @0151012147#
+2017-02-09T14:57:52.560 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:57:53.152 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:57:53.752 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:57:54.352 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:57:54.952 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:57:55.552 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:57:56.153 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:57:56.753 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:57:57.353 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:57:57.953 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:57:58.553 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:57:59.153 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:57:59.754 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:00.356 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:00.957 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:01.558 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:02.158 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:02.758 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:03.358 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:03.958 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:04.558 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:05.159 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:05.760 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:06.362 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:06.962 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:07.563 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:08.165 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:08.765 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:09.366 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:09.967 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:10.567 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:11.169 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:11.769 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:12.371 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:12.971 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:13.571 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:14.171 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:14.771 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:15.371 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:15.972 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:16.572 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:17.172 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:17.772 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:18.372 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:18.972 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:19.573 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:20.174 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:20.774 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:21.374 ИДЕТ ПРОЦЕСС ЗАПРАВКИ...
+2017-02-09T14:58:21.974 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:22.574 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:23.174 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:23.774 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:24.375 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:24.975 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:25.575 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:26.175 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:26.775 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:27.375 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:27.976 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:28.577 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:29.177 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:29.779 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:30.379 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:30.979 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:31.579 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:32.180 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:32.780 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:33.380 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:33.980 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:34.580 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:35.180 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:35.780 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:36.380 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:36.980 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:37.581 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:38.182 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:38.782 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:39.382 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:39.982 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:40.583 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:41.184 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:41.785 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:42.385 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:42.985 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:43.585 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:44.185 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:44.785 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:45.385 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:45.986 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:46.587 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:47.188 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:47.789 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:48.391 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:48.992 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:49.592 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:50.192 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:50.792 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:51.392 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:51.992 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:52.592 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:53.192 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:53.793 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:54.394 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:54.995 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:55.596 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:56.197 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:56.799 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:57.399 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:57.999 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:58.599 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:59.199 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:58:59.799 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:00.399 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:00.999 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:01.600 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:02.201 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:02.801 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:03.402 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:04.002 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:04.604 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:05.204 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:05.804 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:06.405 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:07.005 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:07.605 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:08.206 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:08.807 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-09T14:59:09.407 ПОВЕСЬТЕ ПИСТОЛЕТ!
+2017-02-10T20:13:01.065 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:01.650 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:02.251 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:02.866 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:03.484 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:04.103 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:04.718 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:05.334 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:05.934 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:06.552 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:07.168 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:07.784 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:08.404 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:09.019 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:09.620 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:10.235 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:10.850 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:11.466 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:12.066 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:12.683 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:13.284 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:13.883 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:14.484 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-02-10T20:13:15.085 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! РўР•РЎРўРћР’Р«Р™ РџРљ
+2017-03-14T12:09:29.040 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:29.607 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:30.214 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:30.817 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:31.417 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:32.019 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:32.623 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:33.231 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:33.854 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:34.471 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:35.073 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:35.674 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:36.275 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:36.893 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:37.510 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:38.112 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:38.729 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:39.330 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:39.932 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:40.533 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:41.134 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:41.752 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T12:09:42.358 Exception in ForseMajor Timer:java.lang.NullPointerException
+2017-03-14T13:06:13.483 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:14.069 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:14.671 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:15.273 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:15.874 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:16.475 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:17.076 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:17.678 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:18.279 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:18.894 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:19.495 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:20.097 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:20.699 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:21.300 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:21.902 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:22.506 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:27.443 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:28.045 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:28.646 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:29.248 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:29.849 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:30.451 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:31.067 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:31.685 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:32.286 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:32.888 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:33.489 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:34.114 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:34.715 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:35.337 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:35.938 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:36.540 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:37.141 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:37.743 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:38.344 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:38.946 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:39.547 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:40.149 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:40.751 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:41.352 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:41.954 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:42.555 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:43.157 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:43.758 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:44.360 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:44.962 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:45.563 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:46.164 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:46.766 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:47.368 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:47.969 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:48.571 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:49.172 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:49.774 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:50.375 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:50.977 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:51.599 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:52.200 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:52.810 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:53.413 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:54.013 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:54.618 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:55.218 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:55.819 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:56.420 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:57.021 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:57.624 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:58.225 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:58.826 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:06:59.427 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:00.029 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:00.631 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:01.232 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:01.833 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:02.434 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:03.036 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:03.638 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:04.240 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:04.841 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:05.443 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:06.044 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:06.646 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:07.252 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:07.849 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:08.451 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:09.051 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:09.654 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:10.254 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:07:10.856 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:12:03.164 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:12:21.067 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:13:05.401 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:11.119 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:11.704 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:12.304 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:12.920 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:13.523 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:14.140 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:14.749 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:15.365 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:15.967 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:16.567 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:17.169 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:17.784 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:18.385 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:19.004 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:19.624 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:20.239 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:20.839 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:21.456 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:22.061 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:22.667 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:27.199 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:27.800 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:28.412 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:29.017 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:29.618 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:30.220 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:30.838 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:31.439 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:32.055 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:32.670 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:33.270 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:33.870 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:34.473 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:35.073 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:35.674 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:36.276 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:36.877 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:37.479 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:38.094 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:38.695 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:39.296 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:39.912 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:40.513 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:41.114 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:41.731 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:42.331 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:42.931 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:43.551 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:44.167 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:44.770 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:45.383 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:45.983 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:46.600 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:47.201 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:47.817 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:48.417 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:49.034 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:49.634 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:50.254 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:50.869 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:51.485 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:31:52.101 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:20.907 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:21.484 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:22.085 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:22.687 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:23.288 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:23.890 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:24.491 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:25.093 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:25.695 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:26.296 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:28.136 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:28.741 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:29.342 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:29.944 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:30.545 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:31.147 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:31.761 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:32.363 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:32.965 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:33.566 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:34.168 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:34.769 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:35.370 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:35.972 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:36.573 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:37.175 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:37.776 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:38.378 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:38.979 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:39.581 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:40.183 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:40.784 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:41.401 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:42.003 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:42.604 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:43.206 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:43.818 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:44.419 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:45.021 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:45.623 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:46.224 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:46.826 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:34:47.427 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:17.988 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:18.543 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:19.144 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:19.746 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:20.347 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:20.949 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:21.551 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:22.152 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:26.947 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:27.553 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:28.171 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:28.772 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:29.374 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:29.974 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:30.576 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:31.177 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:31.779 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:32.381 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:32.982 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:33.584 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:34.185 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:34.787 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:35.398 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:36.005 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:36.607 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:37.208 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:37.810 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:38.412 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:39.013 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:39.615 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:40.216 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:40.818 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:41.420 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:37:42.021 jssc.SerialPortException: Port name - COM3; Method name - writeString(); Exception type - Port not opened. Gas Station error! TEST PC
+2017-03-14T13:41:56.623 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:41:57.204 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:41:57.805 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:41:58.409 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:41:59.008 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:41:59.610 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:42:00.211 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:42:00.813 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:42:01.416 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:42:02.020 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:42:02.618 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:42:03.218 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:42:03.820 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:42:04.427 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:42:10.110 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:10.712 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:11.314 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:11.915 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:12.517 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:13.118 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:13.720 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:14.321 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:14.923 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:15.527 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:16.126 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:16.728 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:17.329 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:17.931 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:18.538 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:19.139 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:19.746 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:20.363 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:20.964 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:21.566 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:22.168 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:22.769 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:23.378 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:23.988 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:24.589 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:25.191 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:25.792 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:26.394 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:27.012 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:27.614 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:28.217 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:28.817 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:42:29.418 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T13:44:40.304 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:40.889 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:41.491 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:42.092 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:42.703 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:43.304 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:43.906 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:44.508 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:45.109 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:45.711 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:46.312 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:46.913 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:47.515 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:48.116 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:48.717 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:49.319 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:49.920 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:50.522 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:51.124 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:51.725 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:52.327 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:52.929 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:53.530 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:44:54.132 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:15.224 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:15.810 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:16.412 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:17.013 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:17.614 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:18.216 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:18.818 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:19.419 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:20.020 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:20.637 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:21.257 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:21.859 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:22.460 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:23.061 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T13:47:23.672 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:03:34.649 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:03:35.228 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:03:35.830 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:03:36.431 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:03:37.033 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:24.106 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:24.691 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:25.292 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:25.894 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:26.495 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:27.096 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:27.698 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:28.300 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:28.906 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:29.538 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:30.140 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:30.741 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:31.343 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:31.945 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:32.546 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:33.147 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:33.749 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:34.350 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:34.968 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:35.576 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:05:37.135 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:37.741 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:38.343 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:38.944 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:39.546 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:40.147 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:40.749 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:41.350 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:41.952 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:42.553 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:43.155 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:43.756 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:44.358 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:44.960 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:45.561 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:46.163 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:46.765 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:47.366 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:47.968 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:48.569 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:49.171 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:49.784 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:50.394 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:51.005 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:51.606 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:52.223 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:52.809 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:53.411 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:54.012 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:54.614 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:55.215 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:55.817 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:56.419 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:05:57.020 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port busy. Gas Station error! TEST PC
+2017-03-14T14:08:55.853 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:08:56.449 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:08:57.049 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:08:57.651 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:08:58.253 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:08:58.856 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:08:59.457 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:00.058 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:00.660 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:01.261 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:01.863 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:02.465 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:03.066 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:03.668 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:04.269 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:04.871 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:05.472 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:09:06.084 jssc.SerialPortException: Port name - COM3; Method name - openPort(); Exception type - Port not found. Gas Station error! TEST PC
+2017-03-14T14:41:46.970 jssc.SerialPortException: Port name - COM3; Method name - readString(); Exception type - Port not opened. Gas Station error! TEST PC

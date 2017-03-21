@@ -3,6 +3,7 @@ package ngn.controller;
 import java.awt.event.ActionEvent;
 import java.util.Locale;
 import mail.SendMail;
+import ngn.text.Config;
 import ngn.view.Card;
 import ngn.view.Litrs;
 import static ngn.view.Litrs.ClientLitrs;
@@ -57,6 +58,7 @@ public class Listener {
             ChangePanel.FocusPassword(Pin.PinCode);
             Timers.WaitForClient();
             System.out.println("Balance: " + ReadWI.PersonalInfo[15] + "Credit: " + ReadWI.PersonalInfo[14]);
+            
         } else {
             Timers.errorCard();
         }
@@ -92,6 +94,7 @@ public class Listener {
             }
             ChangePanel.ShowPanel(Litrs.EnterLitrs);
             ChangePanel.FocusLitrsInput();
+            Config.last_transaction(Variables.code);
         } else {
             Timers.WaitForClient();
             Timers.errorPin();

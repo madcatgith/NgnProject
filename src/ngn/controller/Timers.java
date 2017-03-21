@@ -17,6 +17,7 @@ import ngn.view.*;
 import static ngn.view.Footer.CardDate;
 import java.io.*;
 import static ngn.controller.GasStation.StopStartCom3;
+import ngn.text.Config;
 
 /**
  *
@@ -110,6 +111,7 @@ public class Timers {
             
             Work.PolozheniePistoleta.setText(Text.rememberAboutPistol);
             Work.SchetLitrov.setText(GasStation.SchetLitrov);
+            Config.last_transaction(Variables.code+":"+GasStation.SchetLitrov);
             //Work.MoneySchetLitrov.setText(GasStation.MoneySchetLitrov);
             //ngn.text.Config.detaillog(GasStation.PolozheniePistoleta);
             //System.out.println(GasStation.PolozheniePistoleta);
@@ -178,6 +180,7 @@ public class Timers {
                 
                 if (stuck_counter>10){
                     stuck_counter=0;
+                    ngn.text.Config.detaillog("Ошибка связи с колонкой в момент пуска насоса!");
                     Info.ErrorMassage.setText("Обрыв связи с колонкой");
                     ChangePanel.ShowPanel(Info.InfoMassage);
                     Litrs.LitrsInput.setText("");

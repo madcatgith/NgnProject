@@ -1,5 +1,6 @@
 package ngn.controller;
 
+import Preload.LocalDB;
 import Preload.PortCheck;
 import java.awt.event.ActionEvent;
 import java.util.Locale;
@@ -44,6 +45,7 @@ public class GasStation {
     static String WorkingCardCode; //MoneySchetLitrov
     static String OtvetPoDoze;
     static String OtvetKolonki;
+    static String LastCounter="";
 
     public GasStation() {
         GasStationSettings();
@@ -98,6 +100,11 @@ public class GasStation {
 
     public static void TimerKolonkaStart() {
         Litrcomsent=false;
+        
+        System.out.println(Config.get_last_counter());
+        LastCounter=Config.get_last_counter();
+        getGasCounter();
+        
         Timers.stuck_counter=0;
         System.out.println("KOLONKA START WORK!");
         KolonkaStart = new Timer(600, (ActionEvent e) -> {
@@ -112,6 +119,7 @@ public class GasStation {
                     GasOFF=true;
                     KolonkaStart.stop();
                     KolonkaStartNotWorks.restart();
+                    ngn.text.Config.detaillog("Ошибка связи с колонкой!");
                 } else {
                     Ngn.StatusBar(Paths.PISTOLON, 3);
                     GasOFF=false;
@@ -135,6 +143,20 @@ public class GasStation {
                 KolonkaStartNotWorks.stop();
             }
         });
+    }
+    
+    public static void getGasCounter(){
+        try{
+            if (KolonkaCOM3.isOpened()){
+                KolonkaCOM3.writeString("@1054010140#");
+                komanda=2;
+            }
+        }
+        catch (Exception ex){
+            System.out.println(ex);
+            Config.detaillog("Error in counter gettin: "+ex);
+        }
+        
     }
 
     private static class EventListener implements SerialPortEventListener {
@@ -203,11 +225,22 @@ public class GasStation {
                                     break;
                                 default:
                                     komanda = 1;
-                                    break;
+                                    break;    
                             }
                         }
                         
-                        
+                        //System.out.println(OtvetKolonki);
+                        if ((OtvetKolonki.indexOf("@01540601")==0)&&(komanda==2)){
+                            //System.out.println("counter:");
+                            //System.out.println(OtvetKolonki.substring(9,19));
+                            //System.out.println(Converter.fromHexToDex(OtvetKolonki.substring(9,19)));
+                            String c_data=Converter.fromHexToDex(OtvetKolonki.substring(9,19));
+                            Config.detaillog("counter_data:"+c_data);
+                            Config.counter_last_data(c_data);
+                            if (!LastCounter.equals("")){
+                                LocalDB.compare_transactions(LastCounter,c_data);
+                            }
+                        }
                         
                         if (komanda == 1) {
                             try {
@@ -231,7 +264,7 @@ public class GasStation {
                                     Config.detaillog("Fast pistoll on/off error");
                                 }else{
                                     //ZaderzkaDoza.restart();
-                                    System.out.println(OtvetKolonki);
+                                    //System.out.println(OtvetKolonki);
                                 }
                                 //
                             } catch (SerialPortException ex) {

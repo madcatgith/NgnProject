@@ -88,6 +88,26 @@ public class ReadWI {
         }
         return false;
     }
+    
+    public static String[] LastTransaction(){
+        String[] Trans = {""};
+         try (InputStreamReader isr = new InputStreamReader(new FileInputStream(Paths.TRANSACTIONPATH), "windows-1251")) {
+            data = isr.read();
+            if (data > 0) {
+                Content = new StringBuilder(data);
+                while (data != -1) {
+                    Content.append((char) data);
+                    data = isr.read();
+                }
+                Trans = String.valueOf(Content).split("\\|");
+                
+            }
+         }
+         catch (Exception ex){
+              System.out.println(ex);      
+         }
+        return Trans; 
+    }
 
     public static void ReWrite(String cardName, String[] UpdateVariables) {
         String CardCode = cardName.toUpperCase();

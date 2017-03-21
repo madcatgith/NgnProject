@@ -87,4 +87,29 @@ public class Converter {
             return String.format(Locale.ENGLISH, "%.2f", limitLitrs);
         }
     }
+    
+    public static String fromHexToDex(String hex){
+        String digits = "0123456789ABCDEF";
+        hex = hex.toUpperCase();
+        String main = hex.substring(0,8);
+        String afterp = hex.substring(8,10);
+        int val = 0;
+        int val2 = 0;
+        for (int i=0; i<main.length();i++){
+            char c = main.charAt(i);
+            int d = digits.indexOf(c);
+            val = 16*val + d;
+        }
+        for (int i=0;i<afterp.length();i++){
+            char c = afterp.charAt(i);
+            int d = digits.indexOf(c);
+            val2 = 16*val2 + d;
+        }
+        if (val2<10){
+            return val+".0"+val2;
+        }
+        else{
+            return val+"."+val2;
+        }
+    } 
 }

@@ -1,5 +1,7 @@
 package ngn.model;
 
+import static Preload.LocalDB.conLDB;
+import static Preload.LocalDB.rsLDB;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -53,6 +55,35 @@ public class DB {
             System.out.println(ex.getMessage());
             return "";
         }
+    }
+    
+    public static String[] LastTransactionFromDB(String CardCode){
+        String sqlCustomerReward = "SELECT * FROM `"+ DB_PREFIX + "customer_reward`";
+        String sqlCustomerHistory = "SELECT * FROM `"+ DB_PREFIX + "cards_history`  WHERE code LIKE '"+CardCode+"' ORDER BY date DESC LIMIT 1";
+        try{
+            Class.forName("com.mysql.jdbc.Driver");
+            con = DriverManager.getConnection(URL, USER, PASSWORD);
+            PreparedStatement pst = con.prepareStatement(sqlCustomerHistory);
+            rsLDB = pst.executeQuery();
+            while (rsLDB.next()) {
+                String[] ClientInfo = new String[]{
+                    rsLDB.getString("id"),
+                    rsLDB.getString("name"),
+                    rsLDB.getString("code"),
+                    rsLDB.getString("leftlitrs"),
+                    rsLDB.getString("modulename"),
+                    rsLDB.getString("description"),
+                    rsLDB.getString("date"),
+                    //rsLDB.getString("product_id")
+                };
+                return ClientInfo;
+            }
+            
+        }
+        catch(Exception ex){
+            System.out.println(ex);
+        }
+        return null;
     }
 
     public static boolean SendTransactionsToDB(String[] Transactions) {

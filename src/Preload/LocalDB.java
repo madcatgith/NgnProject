@@ -10,9 +10,11 @@ import ngn.Ngn;
 import ngn.controller.ReadWI;
 import ngn.controller.Variables;
 import ngn.controller.WriteWI;
+import static ngn.model.DB.TransInfo;
 import ngn.text.Config;
 import ngn.text.Paths;
 import ngn.text.Text;
+import ngn.model.DB;
 import static ngn.view.BeforeStart.BSLoadingText;
 
 /**
@@ -102,5 +104,27 @@ public class LocalDB {
         }
         System.out.println(Arrays.toString(UpdateVariables));
         ReadWI.ReWrite(Variables.cardCode, UpdateVariables);
+    }
+    
+    public static void compare_transactions(String first,String second){
+        System.out.println("Compairing "+first+" and "+second);
+        double first_counter = Double.parseDouble(first);
+        double second_counter = Double.parseDouble(second);
+        if (first_counter<second_counter){
+            System.out.println(second_counter-first_counter);
+            String last_trans=Config.get_last_transaction();
+            String litrs=last_trans.substring(last_trans.indexOf(":")+1);
+            String CardCode=last_trans.substring(0,last_trans.indexOf(":"));
+            System.out.println(CardCode);
+            System.out.println(litrs);
+            String[] Trans=DB.LastTransactionFromDB(CardCode);
+            for (String custTrans : Trans) {
+                String[] t_info = custTrans.split("=>");
+                    for (int i=0;i<t_info.length;i++){
+                        System.out.println(t_info[i]);
+                    }   
+            }
+            
+        }
     }
 }

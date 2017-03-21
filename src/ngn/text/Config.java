@@ -26,7 +26,7 @@ public class Config {
     public static final boolean UPD = true; // Enable update
 
 //___________D A T A B A S E___________//
-    public static final String DB_URL = "jdbc:mysql://176.111.58.218:3306/ngnsite?useUnicode=true&characterEncoding=UTF-8";//DB_HOST
+    public static final String DB_URL = "jdbc:mysql://176.111.58.218:3306/ngntest?useUnicode=true&characterEncoding=UTF-8";//DB_HOST
     public static final String DB_USER = "ngntest";//DB_LOGIN
     public static final String DB_PASS = "NGNtest";//DP_PASSWORD
     public static final String DB_PREFIX = "ngn_";//DB_PREFIX
@@ -60,6 +60,72 @@ public class Config {
         catch (IOException ex){
             System.out.println(ex.getMessage());
         }
+    }
+    
+    public static void counter_last_data(String line){
+        String curDir = new File("").getAbsolutePath();
+        String filename=curDir+"/counter_last.txt";
+        File f=new File(filename);
+        try {
+                if (line!=null&&f.exists()){
+                    Files.write(Paths.get(filename), line.getBytes(), StandardOpenOption.WRITE);}
+                else if(line!=null){
+                    Files.write(Paths.get(filename), line.getBytes(), StandardOpenOption.CREATE);
+                }
+        }
+        catch (IOException ex){
+            System.out.println(ex.getMessage());
+        }
+    }
+    
+    public static void last_transaction(String line){
+        String curDir = new File("").getAbsolutePath();
+        String filename=curDir+"/trans_last.txt";
+        File f=new File(filename);
+        try {
+                if (line!=null&&f.exists()){
+                    Files.write(Paths.get(filename), line.getBytes(), StandardOpenOption.WRITE);}
+                else if(line!=null){
+                    Files.write(Paths.get(filename), line.getBytes(), StandardOpenOption.CREATE);
+                }
+        }
+        catch (IOException ex){
+            System.out.println(ex.getMessage());
+        }
+    }
+    
+    public static String get_last_transaction(){
+        String curDir = new File("").getAbsolutePath();
+        String filename=curDir+"/trans_last.txt";
+        String trans="";
+        try (InputStream in = Files.newInputStream(Paths.get(filename));
+            BufferedReader reader =
+            new BufferedReader(new InputStreamReader(in))) {
+            String line = null;
+            while ((line = reader.readLine()) != null) {
+                trans=line;
+            }
+            } catch (IOException x) {
+                System.err.println(x);
+            }
+        return trans;
+    }
+    
+    public static String get_last_counter(){      
+        String curDir = new File("").getAbsolutePath();
+        String filename=curDir+"/counter_last.txt";
+        String counter="";
+        try (InputStream in = Files.newInputStream(Paths.get(filename));
+            BufferedReader reader =
+            new BufferedReader(new InputStreamReader(in))) {
+            String line = null;
+            while ((line = reader.readLine()) != null) {
+                counter=line;
+            }
+            } catch (IOException x) {
+                System.err.println(x);
+            }
+        return counter;    
     }
     
     public static void clearlog(){

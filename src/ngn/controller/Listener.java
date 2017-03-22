@@ -115,6 +115,7 @@ public class Listener {
                     Timers.errorLitrs("getpistol"); // Пистолет не подняли после ввода количества литров
                 } else {
                     Timers.WaitForClient.stop(); // Останавливаем проверку наличия клиента на время заправки
+                    GasStation.getGasCounter(false);
                     ChangePanel.ShowPanel(Work.Working);
                     Work.Working.requestFocusInWindow(); // Отображаем окно процесса заправки
                     String komDoza = Converter.HexDozaForKolonka(eqHex); // Получили команду для старта

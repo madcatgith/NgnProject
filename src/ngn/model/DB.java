@@ -85,6 +85,22 @@ public class DB {
         }
         return null;
     }
+    
+    public static boolean FixTransaction(String id,double newlitrs){
+        try{
+            String query = "UPDATE `ngn_cards_history` SET leftlitrs="+newlitrs+" WHERE id="+id;
+            Class.forName("com.mysql.jdbc.Driver");
+            con = DriverManager.getConnection(URL, USER, PASSWORD);
+            PreparedStatement pst = con.prepareStatement(query);
+            pst.executeUpdate();
+            return true;
+        }
+        catch (Exception ex){
+            Config.detaillog("Error in fix transaction:"+ex);
+            System.out.println(ex);
+            return false;
+        }   
+    }
 
     public static boolean SendTransactionsToDB(String[] Transactions) {
         

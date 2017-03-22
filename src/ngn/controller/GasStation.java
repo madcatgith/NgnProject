@@ -45,7 +45,9 @@ public class GasStation {
     static String WorkingCardCode; //MoneySchetLitrov
     static String OtvetPoDoze;
     static String OtvetKolonki;
+    static String FirstCounter="";
     static String LastCounter="";
+    public static double TransactionByCounter=0;
 
     public GasStation() {
         GasStationSettings();
@@ -102,8 +104,8 @@ public class GasStation {
         Litrcomsent=false;
         
         System.out.println(Config.get_last_counter());
-        LastCounter=Config.get_last_counter();
-        getGasCounter();
+        //LastCounter=Config.get_last_counter();
+        //getGasCounter(true);
         
         Timers.stuck_counter=0;
         System.out.println("KOLONKA START WORK!");
@@ -145,11 +147,15 @@ public class GasStation {
         });
     }
     
-    public static void getGasCounter(){
+    public static void getGasCounter(boolean withcompare){
         try{
             if (KolonkaCOM3.isOpened()){
                 KolonkaCOM3.writeString("@1054010140#");
-                komanda=2;
+                if (withcompare){
+                    komanda=2;
+                }else{
+                    komanda=3;
+                }
             }
         }
         catch (Exception ex){
@@ -236,9 +242,19 @@ public class GasStation {
                             //System.out.println(Converter.fromHexToDex(OtvetKolonki.substring(9,19)));
                             String c_data=Converter.fromHexToDex(OtvetKolonki.substring(9,19));
                             Config.detaillog("counter_data:"+c_data);
-                            Config.counter_last_data(c_data);
+                            Config.counter_last_data(c_data); //Запись нового значения счетчика в файл
                             if (!LastCounter.equals("")){
                                 LocalDB.compare_transactions(LastCounter,c_data);
+                                //LastCounter="";
+                            }
+                        } else if ((OtvetKolonki.indexOf("@01540601")==0)&&(komanda==3)){
+                            String c_data=Converter.fromHexToDex(OtvetKolonki.substring(9,19));
+                            if (FirstCounter.equals("")){FirstCounter=c_data;}
+                            else{
+                                LastCounter=c_data;
+                                TransactionByCounter=Double.parseDouble(LastCounter)-Double.parseDouble(FirstCounter);
+                                FirstCounter="";
+                                System.out.println(TransactionByCounter);
                             }
                         }
                         

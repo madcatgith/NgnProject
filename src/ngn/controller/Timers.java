@@ -159,6 +159,7 @@ public class Timers {
                     ToZero.CustomerInfo();
                 } else {
                     WriteWI.CounterWriter(litriDouble);// Записываем отданные литры в счетчик
+                    GasStation.getGasCounter(false);
                     WriteWI.Write(Transaction, Paths.TRANSACTIONPATH, true);// Записываем операцию в FillingData.txt
                     LocalDB.WriteToLocalDB();// Записываем в LocalDB
                     ChangePanel.ShowPanel(Bye.GoodBye);

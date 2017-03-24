@@ -35,6 +35,8 @@ public class PortCheck {
             PortToCheck = new SerialPort(portName);
             try {
                 PortToCheck.openPort();
+                PortToCheck.purgePort(SerialPort.PURGE_RXCLEAR);
+                PortToCheck.purgePort(SerialPort.PURGE_TXCLEAR);
                 PortToCheck.addEventListener(new PortListener());
                 DoWithPort("GS");
                 try {

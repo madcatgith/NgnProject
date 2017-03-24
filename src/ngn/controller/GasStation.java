@@ -48,6 +48,7 @@ public class GasStation {
     static String FirstCounter="";
     static String LastCounter="";
     public static double TransactionByCounter=0;
+    public static boolean confirmtrans=false;
 
     public GasStation() {
         GasStationSettings();
@@ -55,6 +56,7 @@ public class GasStation {
     }
 
     public static void GasStationSettings() {
+        
         if (KolonkaCOM3!=null){
         if (KolonkaCOM3.isOpened()){
             try{
@@ -104,8 +106,8 @@ public class GasStation {
         Litrcomsent=false;
         
         System.out.println(Config.get_last_counter());
-        //LastCounter=Config.get_last_counter();
-        //getGasCounter(true);
+        LastCounter=Config.get_last_counter();
+        getGasCounter(true);
         
         Timers.stuck_counter=0;
         System.out.println("KOLONKA START WORK!");
@@ -249,12 +251,20 @@ public class GasStation {
                             }
                         } else if ((OtvetKolonki.indexOf("@01540601")==0)&&(komanda==3)){
                             String c_data=Converter.fromHexToDex(OtvetKolonki.substring(9,19));
-                            if (FirstCounter.equals("")){FirstCounter=c_data;}
+                            if (FirstCounter.equals("")){
+                                FirstCounter=c_data;
+                                Config.counter_last_data(c_data);
+                                System.out.println("First counter"+c_data);
+                            }
                             else{
                                 LastCounter=c_data;
-                                TransactionByCounter=Double.parseDouble(LastCounter)-Double.parseDouble(FirstCounter);
+                                double trans=Double.parseDouble(LastCounter)-Double.parseDouble(FirstCounter);
+                                TransactionByCounter=Math.round(trans*100)/100.00;
+                                confirmtrans=true;
                                 FirstCounter="";
-                                System.out.println(TransactionByCounter);
+                                Config.counter_last_data(c_data);
+                                System.out.println("First counter"+c_data);
+                                //System.out.println(TransactionByCounter);
                             }
                         }
                         

@@ -1,5 +1,7 @@
 package Preload;
 
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -8,6 +10,9 @@ import java.sql.SQLException;
 import java.util.Arrays;
 import ngn.Ngn;
 import ngn.controller.ReadWI;
+import static ngn.controller.ReadWI.Content;
+import static ngn.controller.ReadWI.Transactions;
+import static ngn.controller.ReadWI.data;
 import ngn.controller.Variables;
 import ngn.controller.WriteWI;
 import static ngn.model.DB.TransInfo;
@@ -116,9 +121,15 @@ public class LocalDB {
             String last_trans=Config.get_last_transaction();
             String litrs=last_trans.substring(last_trans.indexOf(":")+1);
             String CardCode=last_trans.substring(0,last_trans.indexOf(":"));
-            /*System.out.println(CardCode);
-            System.out.println(litrs);*/
-            String[] Trans=DB.LastTransactionFromDB(CardCode);
+            
+            //Поиск битой транзакции в локальной базе
+            String[] Trans = LastTransactionFromLDB("test");
+            if (Trans!=null){
+                String[] t_info = Trans[0].split("=>");
+                System.out.println(t_info[0]);
+            }
+            //Поиск битой транзакции в удаленной базе
+            /*String[] Trans=DB.LastTransactionFromDB(CardCode);
             String[] t_info = Trans[3].split("=>");
             System.out.println(t_info[0]);
             double inbaselitrs=Double.parseDouble(t_info[0]);
@@ -128,7 +139,29 @@ public class LocalDB {
                 if (DB.FixTransaction(t_info[0], lasttranslitrs)){
                     System.out.println("transaction fixed!");
                 }
-            }
+            }*/
         }
+    }
+    
+    public static String[] LastTransactionFromLDB(String cardcode){
+        String[] trans = {""};
+         try (InputStreamReader isr = new InputStreamReader(new FileInputStream(Paths.TRANSACTIONPATH), "windows-1251")) {
+            data = isr.read();
+                if (data > 0) {
+                    Content = new StringBuilder(data);
+                    while (data != -1) {
+                        Content.append((char) data);
+                        data = isr.read();
+                    }
+                    trans = String.valueOf(Content).split("\\|");
+                }
+                else{
+                    return null;
+                }
+            }
+                catch(Exception ex){
+                    System.out.println("Exception in LastTransactionFromLDB: "+ex);
+                }
+         return trans;
     }
 }

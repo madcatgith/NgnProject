@@ -160,6 +160,18 @@ public class Timers {
                 } else {
                     WriteWI.CounterWriter(litriDouble);// Записываем отданные литры в счетчик
                     GasStation.getGasCounter(false);
+                    while (!GasStation.confirmtrans){
+                        Thread.sleep(100);
+                    }
+                    GasStation.confirmtrans=false;
+                    System.out.println(GasStation.TransactionByCounter);
+                    System.out.println(Transaction[4]);
+                    if (GasStation.TransactionByCounter>Double.parseDouble(Transaction[4])){
+                        System.out.println("Transaction fixed");
+                        Transaction[4]=Double.toString(GasStation.TransactionByCounter);
+                    }
+                    Config.counter_last_data(GasStation.LastCounter);
+                    System.out.println(GasStation.LastCounter);
                     WriteWI.Write(Transaction, Paths.TRANSACTIONPATH, true);// Записываем операцию в FillingData.txt
                     LocalDB.WriteToLocalDB();// Записываем в LocalDB
                     ChangePanel.ShowPanel(Bye.GoodBye);

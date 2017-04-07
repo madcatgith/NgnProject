@@ -40,6 +40,7 @@ public class Variables {
     public static Double credit;
     public static Double customerBalance;
     public static Object sdate;
+    public static Integer credit_days;
 
     static JPanel[] PanelArray = new JPanel[]{
         BeforeStart.BSLoadingPanel,

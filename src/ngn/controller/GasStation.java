@@ -49,6 +49,7 @@ public class GasStation {
     static String LastCounter="";
     public static double TransactionByCounter=0;
     public static boolean confirmtrans=false;
+    static int NotWorkCounter=0;
 
     public GasStation() {
         GasStationSettings();
@@ -128,6 +129,7 @@ public class GasStation {
                     Ngn.StatusBar(Paths.PISTOLON, 3);
                     GasOFF=false;
                     PistolStatus = true;
+                    NotWorkCounter=0;
                 }
                 TestOutGSSignal = false;
             } catch (SerialPortException ex) {
@@ -146,6 +148,13 @@ public class GasStation {
                 KolonkaStart.restart();
                 KolonkaStartNotWorks.stop();
             }
+            if (NotWorkCounter<200){
+                NotWorkCounter++;
+            }
+            else{
+                Config.Reboot("0");
+            }
+            System.out.println(NotWorkCounter);
         });
     }
     

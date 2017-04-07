@@ -8,11 +8,15 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Arrays;
+import java.util.Locale;
 import ngn.Ngn;
+import ngn.controller.ChangePanel;
+import ngn.controller.Converter;
 import ngn.controller.ReadWI;
 import static ngn.controller.ReadWI.Content;
 import static ngn.controller.ReadWI.Transactions;
 import static ngn.controller.ReadWI.data;
+import ngn.controller.Timers;
 import ngn.controller.Variables;
 import ngn.controller.WriteWI;
 import static ngn.model.DB.TransInfo;
@@ -21,6 +25,8 @@ import ngn.text.Paths;
 import ngn.text.Text;
 import ngn.model.DB;
 import static ngn.view.BeforeStart.BSLoadingText;
+import ngn.view.Pin;
+import ngn.view.Work;
 
 /**
  *
@@ -47,7 +53,7 @@ public class LocalDB {
                     + "SELECT cl.text FROM " + DB_PREFIX + "coupon_limit cl WHERE cl.limit_id=12 AND cl.coupon_id=c.coupon_id) AS limit_day, ("
                     + "SELECT cl.text FROM " + DB_PREFIX + "coupon_limit cl WHERE cl.limit_id=13 AND cl.coupon_id=c.coupon_id) AS limit_litrs, ("
                     + "SELECT SUM(ch.leftlitrs) FROM " + DB_PREFIX + "cards_history ch WHERE ch.code=c.code AND DATE(ch.date) BETWEEN DATE(CURDATE()) AND DATE(CURDATE() + INTERVAL limit_day DAY)) AS used_limit_litrs, ("
-                    + "SELECT IF(SUM(cr.points) IS NULL,0,SUM(cr.points))+cu.credit FROM " + DB_PREFIX + "customer_reward cr WHERE cr.customer_id=cu.customer_id) AS customer_balance FROM " + DB_PREFIX + "coupon c "
+                    + "SELECT IF(SUM(cr.points) IS NULL,0,SUM(cr.points))+cu.credit FROM " + DB_PREFIX + "customer_reward cr WHERE cr.customer_id=cu.customer_id) AS customer_balance, cu.credit_days FROM " + DB_PREFIX + "coupon c "
                     + "LEFT JOIN " + DB_PREFIX + "coupon_customer cc ON c.coupon_id=cc.coupon_id "
                     + "LEFT JOIN " + DB_PREFIX + "customer cu ON cc.customer_id=cu.customer_id "
                     + "LEFT JOIN " + DB_PREFIX + "custom_field_value_description cfvd ON cfvd.custom_field_value_id=SUBSTRING(cu.custom_field,7,1)");
@@ -69,7 +75,8 @@ public class LocalDB {
                     String.valueOf(rsLDB.getInt("c.litr_place")),
                     String.valueOf(rsLDB.getInt("c.coupon_id")),
                     String.valueOf(rsLDB.getString("cu.credit")),
-                    String.valueOf(rsLDB.getDouble("customer_balance"))
+                    String.valueOf(rsLDB.getDouble("customer_balance")),
+                    String.valueOf(rsLDB.getInt("credit_days"))
                 };
                 WriteWI.Write(LocalClientInfo, WriteWI.PATHLDB, true);
             }
@@ -117,17 +124,58 @@ public class LocalDB {
         double second_counter = Double.parseDouble(second);
         if (first_counter<second_counter){
             System.out.println(second_counter-first_counter);
-            double lasttranslitrs = second_counter-first_counter;
+            double lasttranslitrs = Math.round((second_counter-first_counter)*100)/100.00;
             String last_trans=Config.get_last_transaction();
             String litrs=last_trans.substring(last_trans.indexOf(":")+1);
             String CardCode=last_trans.substring(0,last_trans.indexOf(":"));
-            
+            System.out.println(lasttranslitrs);
             //Поиск битой транзакции в локальной базе
-            String[] Trans = LastTransactionFromLDB("test");
-            if (Trans!=null){
-                String[] t_info = Trans[0].split("=>");
-                System.out.println(t_info[0]);
+            if (ReadWI.FindCard(CardCode)) {
+            try{
+                Variables.cardCode = CardCode;
+            Variables.customerId = Integer.valueOf(ReadWI.PersonalInfo[1]);
+            Variables.pin = ReadWI.PersonalInfo[2];
+            Variables.name = ReadWI.PersonalInfo[3];
+            Variables.litrnum = String.format(Locale.ENGLISH, "%.2f", Double.valueOf(ReadWI.PersonalInfo[4]));
+            Variables.code = ReadWI.PersonalInfo[5];
+            Variables.customerPrice = Double.valueOf(ReadWI.PersonalInfo[6]);
+            Variables.uahBalance = Double.valueOf(ReadWI.PersonalInfo[7]);
+            Variables.purse = ReadWI.PersonalInfo[8];
+            Variables.limitDay = Integer.valueOf(ReadWI.PersonalInfo[9]);
+            Variables.limitLitrs = Double.valueOf(ReadWI.PersonalInfo[10]);
+            Variables.usedLimitLitrs = Double.valueOf(ReadWI.PersonalInfo[11]);
+            Variables.BalanceOneCardZero = Integer.valueOf(ReadWI.PersonalInfo[12]);
+            Variables.couponId = Integer.valueOf(ReadWI.PersonalInfo[13]);
+            Variables.credit = Double.valueOf(ReadWI.PersonalInfo[14]);
+            Variables.customerBalance = Double.valueOf(ReadWI.PersonalInfo[15]);
+            Variables.leftlitr = Double.toString(lasttranslitrs);
+            //Work.WorkingCardCode.setText(Variables.cardCode);
+            System.out.println("Balance: " + ReadWI.PersonalInfo[15] + "Credit: " + ReadWI.PersonalInfo[14]);
+            
+            System.out.println(Variables.name);
+            // Date 
+                java.util.Date udate = new java.util.Date();
+                Variables.sdate = new java.sql.Timestamp(udate.getTime());
+                
+            String[] Transaction = new String[]{
+                    String.valueOf(Variables.BalanceOneCardZero),
+                    String.valueOf(Variables.customerId),
+                    Variables.name,
+                    Variables.code,
+                    Variables.leftlitr,
+                    String.valueOf(Variables.sdate),
+                    String.valueOf(Variables.couponId)
+                };
+            WriteWI.Write(Transaction, Paths.TRANSACTIONPATH, true);// Записываем операцию в FillingData.txt
+            //LocalDB.WriteToLocalDB();// Записываем в LocalDB
             }
+            catch(Exception ex){
+                System.out.println(ex);
+            }
+            
+        } else {
+            Timers.errorCard();
+        }
             //Поиск битой транзакции в удаленной базе
             /*String[] Trans=DB.LastTransactionFromDB(CardCode);
             String[] t_info = Trans[3].split("=>");

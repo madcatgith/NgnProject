@@ -50,6 +50,7 @@ public class Listener {
             Variables.couponId = Integer.valueOf(ReadWI.PersonalInfo[13]);
             Variables.credit = Double.valueOf(ReadWI.PersonalInfo[14]);
             Variables.customerBalance = Double.valueOf(ReadWI.PersonalInfo[15]);
+            Variables.credit_days = Integer.valueOf(ReadWI.PersonalInfo[16]);
             
             //Work.WorkingCardCode.setText(Variables.cardCode);
             Work.WorkingCardCode.setText(Variables.code);
@@ -57,7 +58,7 @@ public class Listener {
             ChangePanel.ShowPanel(Pin.EnterPin);
             ChangePanel.FocusPassword(Pin.PinCode);
             Timers.WaitForClient();
-            System.out.println("Balance: " + ReadWI.PersonalInfo[15] + "Credit: " + ReadWI.PersonalInfo[14]);
+            System.out.println("Balance: " + ReadWI.PersonalInfo[15] + "Credit: " + ReadWI.PersonalInfo[14]+"Credit days:"+ReadWI.PersonalInfo[16]);
             
         } else {
             Timers.errorCard();
@@ -78,6 +79,10 @@ public class Listener {
             return;
         }
         if (PinCode.equals(Variables.pin)) {
+            if (Variables.credit_days>0){ //Проверка на просроченный кредит
+                Timers.errorCredit();
+            }
+            else{
             Litrs.ClientName.setText(Variables.name);
             Litrs.ClientCard.setText(Variables.code);
             if (Variables.isLimitClient) {
@@ -94,7 +99,7 @@ public class Listener {
             }
             ChangePanel.ShowPanel(Litrs.EnterLitrs);
             ChangePanel.FocusLitrsInput();
-            Config.last_transaction(Variables.code);
+            Config.last_transaction(Variables.code);}
         } else {
             Timers.WaitForClient();
             Timers.errorPin();

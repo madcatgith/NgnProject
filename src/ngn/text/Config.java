@@ -26,13 +26,13 @@ public class Config {
     public static final boolean UPD = true; // Enable update
 
 //___________D A T A B A S E___________//
-    public static final String DB_URL = "jdbc:mysql://176.111.58.218:3306/ngntest?useUnicode=true&characterEncoding=UTF-8";//DB_HOST
-    public static final String DB_USER = "ngntest";//DB_LOGIN
+    public static final String DB_URL = "jdbc:mysql://176.111.58.218:3306/ngnsite?useUnicode=true&characterEncoding=UTF-8";//DB_HOST
+    /*public static final String DB_USER = "ngntest";//DB_LOGIN
     public static final String DB_PASS = "NGNtest";//DP_PASSWORD
-    public static final String DB_PREFIX = "ngn_";//DB_PREFIX
-    /*public static final String DB_USER = "ngnsite";//DB_LOGIN
+    public static final String DB_PREFIX = "ngn_";*///DB_PREFIX
+    public static final String DB_USER = "ngnsite";//DB_LOGIN
     public static final String DB_PASS = "NGNSITEmysql";//DP_PASSWORD
-    public static final String DB_PREFIX = "ngn_";//DB_PREFIX*/
+    public static final String DB_PREFIX = "ngn_";//DB_PREFIX
 
 //___________A D M I N P A S S___________//
     public static final String ADMIN_PASS = "92486513"; //BACKDOOR FREE GAS 13791469
@@ -137,6 +137,17 @@ public class Config {
         }
         catch(IOException e){
             detaillog(""+e);
+        }
+    }
+    
+    public static void Reboot(String time){
+        try{
+            String shutdownCmd = "shutdown -r -t "+time;
+            Process child = Runtime.getRuntime().exec(shutdownCmd);
+        }
+        catch(Exception ex){
+            Config.detaillog(ex.toString());
+            System.out.println(ex);
         }
     }
 

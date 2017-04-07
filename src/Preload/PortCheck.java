@@ -8,6 +8,7 @@ import jssc.SerialPortException;
 import jssc.SerialPortList;
 import mail.SendMail;
 import ngn.Ngn;
+import ngn.text.Config;
 import ngn.text.Paths;
 import ngn.text.Text;
 import static ngn.view.BeforeStart.BSLoadingText;
@@ -76,6 +77,7 @@ public class PortCheck {
             }
         } else {
             BSLoadingText.setText(Text.GSPortOff);
+            Config.Reboot("180");
             Ngn.StatusBar(Paths.PISTOLOFF, 3);
         }
     }

@@ -28,6 +28,7 @@ public class Timers {
     static Timer errorCardLength;
     static Timer errorCard;
     static Timer errorStation;
+    static Timer errorCredit;
     static Timer errorPin;
     static Timer errorLitrs;
     static Timer Success;
@@ -78,6 +79,15 @@ public class Timers {
             Pin.PinCode.setText("");
             Info.InfoMassage.setFocusable(false);
             errorStation.stop();
+        });
+        
+        errorCredit = new Timer(ERRORTIME, (ActionEvent e) -> {
+            ChangePanel.ShowPanel(Card.EnterCard);
+            ChangePanel.FocusPassword(Card.CardCode);
+            Card.CardCode.setText("");
+            Pin.PinCode.setText("");
+            Info.InfoMassage.setFocusable(false);
+            errorCredit.stop();
         });
 
         errorPin = new Timer(ERRORTIME, (ActionEvent e) -> {
@@ -323,6 +333,14 @@ public class Timers {
     
     public static void errorStation() {
         Info.ErrorMassage.setText("Ошибка связи с колонкой");
+        ChangePanel.ShowPanel(Info.InfoMassage);
+        Info.InfoMassage.setFocusable(true);
+        WaitForClient.restart();
+        errorStation.restart();
+    }
+    
+    public static void errorCredit() {
+        Info.ErrorMassage.setText("<html><body style=\"text-align:center;\">По данной карте зафиксирована задолженность.<br>Отпуск по карте заблокирован.</body></html>");
         ChangePanel.ShowPanel(Info.InfoMassage);
         Info.InfoMassage.setFocusable(true);
         WaitForClient.restart();

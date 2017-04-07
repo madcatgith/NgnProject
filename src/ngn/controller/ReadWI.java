@@ -89,6 +89,20 @@ public class ReadWI {
         return false;
     }
     
+    public static boolean FindCard(String cardCode) {
+        String CardCode = cardCode.toUpperCase();
+        CreateLocalDB();
+        String[] CCS;
+        for (String custCard : CustomerInfo) {
+            CCS = custCard.split("=>");
+            if (CCS[5].toUpperCase().contains(CardCode)) {
+                PersonalInfo = CCS;
+                return true;
+            }
+        }
+        return false;
+    }
+    
     public static String[] LastTransaction(){
         String[] Trans = {""};
          try (InputStreamReader isr = new InputStreamReader(new FileInputStream(Paths.TRANSACTIONPATH), "windows-1251")) {

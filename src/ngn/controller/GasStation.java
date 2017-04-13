@@ -49,6 +49,7 @@ public class GasStation {
     static String LastCounter="";
     public static double TransactionByCounter=0;
     public static boolean confirmtrans=false;
+    public static boolean gotfirstcounter=false;
     static int NotWorkCounter=0;
 
     public GasStation() {
@@ -108,7 +109,7 @@ public class GasStation {
         
         System.out.println(Config.get_last_counter());
         LastCounter=Config.get_last_counter();
-        getGasCounter(true);
+        getGasCounter(true,true);
         
         Timers.stuck_counter=0;
         System.out.println("KOLONKA START WORK!");
@@ -158,14 +159,17 @@ public class GasStation {
         });
     }
     
-    public static void getGasCounter(boolean withcompare){
+    public static void getGasCounter(boolean withcompare,boolean firstcounter){
         try{
             if (KolonkaCOM3.isOpened()){
                 KolonkaCOM3.writeString("@1054010140#");
                 if (withcompare){
                     komanda=2;
-                }else{
+                }else if(firstcounter){
                     komanda=3;
+                }
+                else if(!firstcounter){
+                    komanda=4;
                 }
             }
         }
@@ -173,8 +177,9 @@ public class GasStation {
             System.out.println(ex);
             Config.detaillog("Error in counter gettin: "+ex);
         }
-        
     }
+    
+    
 
     private static class EventListener implements SerialPortEventListener {
 
@@ -260,21 +265,27 @@ public class GasStation {
                             }
                         } else if ((OtvetKolonki.indexOf("@01540601")==0)&&(komanda==3)){
                             String c_data=Converter.fromHexToDex(OtvetKolonki.substring(9,19));
-                            if (FirstCounter.equals("")){
-                                FirstCounter=c_data;
-                                Config.counter_last_data(c_data);
-                                System.out.println("First counter"+c_data);
-                            }
-                            else{
-                                LastCounter=c_data;
-                                double trans=Double.parseDouble(LastCounter)-Double.parseDouble(FirstCounter);
-                                TransactionByCounter=Math.round(trans*100)/100.00;
-                                confirmtrans=true;
-                                FirstCounter="";
-                                Config.counter_last_data(c_data);
-                                System.out.println("First counter"+c_data);
+                            FirstCounter=c_data;
+                            gotfirstcounter=true;
+                            Config.counter_last_data(c_data);
+                            System.out.println("First counter"+c_data);
+                        }
+                        else if ((OtvetKolonki.indexOf("@01540601")==0)&&(komanda==4)){
+                                try{
+                                    String c_data=Converter.fromHexToDex(OtvetKolonki.substring(9,19));
+                                    LastCounter=c_data;
+                                    double trans=Double.parseDouble(LastCounter)-Double.parseDouble(FirstCounter);
+                                    TransactionByCounter=Math.round(trans*100)/100.00;
+                                    confirmtrans=true;
+                                    FirstCounter="";
+                                    Config.counter_last_data(c_data);
+                                    System.out.println("Second counter"+c_data);
+                                }
+                                catch(Exception ex){
+                                    System.out.println(ex);
+                                    Config.detaillog("Exception on transaction fix 280 line "+ex);
+                                }
                                 //System.out.println(TransactionByCounter);
-                            }
                         }
                         
                         if (komanda == 1) {
@@ -303,7 +314,7 @@ public class GasStation {
                                 }
                                 //
                             } catch (SerialPortException ex) {
-                                SendMail.sendEmail(String.valueOf(ex), "Gas Station error! " + DB.MODULENAME, false);
+                                SendMail.sendEmail(String.valueOf(ex), "Gas Station error! " + DB.MODULENAME, true);
                                 System.out.println(ex);
                                 Config.detaillog(String.valueOf(ex) + " Gas Station error! " + DB.MODULENAME);
                             }

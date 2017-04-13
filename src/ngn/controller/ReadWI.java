@@ -142,7 +142,8 @@ public class ReadWI {
             String.valueOf(Variables.BalanceOneCardZero),
             String.valueOf(Variables.couponId),
             String.valueOf(Variables.credit),
-            UpdateVariables[2]
+            UpdateVariables[2],
+            String.valueOf(Variables.credit_days)
         };
         System.out.println(Arrays.toString(UpdateData));
         for (String custCard : CustomerInfo) {

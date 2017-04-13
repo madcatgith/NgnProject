@@ -168,20 +168,44 @@ public class Timers {
                     GasStation.CustomerInfoToZero();
                     ToZero.CustomerInfo();
                 } else {
+                  boolean hold=false;
+                if (GasStation.gotfirstcounter){  
                     WriteWI.CounterWriter(litriDouble);// Записываем отданные литры в счетчик
-                    GasStation.getGasCounter(false);
+                    /*GasStation.getGasCounter(false,false);
+                    Thread.sleep(200);*/
+                    int blockhold=0;
                     while (!GasStation.confirmtrans){
-                        Thread.sleep(100);
+                        GasStation.getGasCounter(false,false);
+                        Thread.sleep(200);
+                        blockhold++;
+                        System.out.println(blockhold);
+                        if (blockhold>200){
+                            hold=true;
+                            break;
+                        }
                     }
+                  }else{
+                      hold=true;
+                  }
                     GasStation.confirmtrans=false;
+                    GasStation.gotfirstcounter=false;
+                    if (!hold){
                     System.out.println(GasStation.TransactionByCounter);
                     System.out.println(Transaction[4]);
-                    if (GasStation.TransactionByCounter>Double.parseDouble(Transaction[4])){
-                        System.out.println("Transaction fixed");
-                        Transaction[4]=Double.toString(GasStation.TransactionByCounter);
+                            if (GasStation.TransactionByCounter>Double.parseDouble(Transaction[4])){
+                                System.out.println("Transaction fixed");
+                                Config.detaillog("Transaction fixed");
+                                Transaction[4]=Double.toString(GasStation.TransactionByCounter);
+                                Variables.leftlitr=Double.toString(GasStation.TransactionByCounter);
+                                formatnewln = Double.valueOf(Variables.litrnum) - GasStation.TransactionByCounter;
+                                Variables.newln = String.format(Locale.ENGLISH, "%.2f", formatnewln);
+                        }
+                        Config.counter_last_data(GasStation.LastCounter);
+                        System.out.println(GasStation.LastCounter);
                     }
-                    Config.counter_last_data(GasStation.LastCounter);
-                    System.out.println(GasStation.LastCounter);
+                    else{
+                        Config.detaillog("hold protection was enabled");
+                    }
                     WriteWI.Write(Transaction, Paths.TRANSACTIONPATH, true);// Записываем операцию в FillingData.txt
                     LocalDB.WriteToLocalDB();// Записываем в LocalDB
                     ChangePanel.ShowPanel(Bye.GoodBye);

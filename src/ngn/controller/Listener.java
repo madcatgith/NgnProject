@@ -23,7 +23,7 @@ public class Listener {
         String CardCode = Converter.DeleteSymbols(e.getActionCommand());
         switch (CardCode){
             case "testmail":System.out.println(CardCode);
-            SendMail.sendEmail("test", "test", Boolean.FALSE); Card.CardCode.setText("");
+            SendMail.sendEmail("test", "test", Boolean.TRUE); Card.CardCode.setText("");
             break;
             case "testlog":ngn.text.Config.detaillog("Log exists"); Card.CardCode.setText("");
             break;
@@ -120,26 +120,42 @@ public class Listener {
                     Timers.errorLitrs("getpistol"); // Пистолет не подняли после ввода количества литров
                 } else {
                     Timers.WaitForClient.stop(); // Останавливаем проверку наличия клиента на время заправки
+                    int blockhold=0;
+                    boolean hold =false;
                     try{
-                        GasStation.getGasCounter(false);
+                        //GasStation.getGasCounter(false,true);
+                        while (!GasStation.gotfirstcounter){
+                            GasStation.getGasCounter(false,true);
+                            Thread.sleep(200);
+                            blockhold++;
+                            System.out.println(blockhold);
+                            if (blockhold>200){
+                                hold=true;
+                                GasStation.gotfirstcounter=false;
+                                break;
+                            }
+                        }
                     }
                     catch(Exception ex){
                         System.out.println(ex);
-                        
+                        GasStation.gotfirstcounter=false;
                     }
-                    ChangePanel.ShowPanel(Work.Working);
-                    Work.Working.requestFocusInWindow(); // Отображаем окно процесса заправки
-                    String komDoza = Converter.HexDozaForKolonka(eqHex); // Получили команду для старта
-                    GasStation.TimerZaderzkaDoza(komDoza);
-                    Work.SchetLitrov.setText("");
-                    Timers.ForceMajor();
+                    
+                        ChangePanel.ShowPanel(Work.Working);
+                        Work.Working.requestFocusInWindow(); // Отображаем окно процесса заправки
+                        String komDoza = Converter.HexDozaForKolonka(eqHex); // Получили команду для старта
+                        GasStation.TimerZaderzkaDoza(komDoza);
+                        Work.SchetLitrov.setText("");
+                        Timers.ForceMajor();
                     /* Нужно проверить человеческий фактор дергания руки. Существует
                        возможность после поднятия пистолета, его мгновенное опускание.*/
+                    
                 }
             } else if (Variables.isLimitClient) {
                 Timers.errorLitrs("needlitres");
             } else {
                 Timers.errorLitrs("notenoughlitres");
+                
             }
         } else {
             Timers.errorLitrs("numlitres");

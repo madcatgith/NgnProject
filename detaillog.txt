@@ -3310,3 +3310,85 @@
 2017-04-07T18:19:16.692 counter_data:244260.08
 2017-04-07T18:21:22.831 counter_data:244260.08
 2017-04-07T18:23:14.280 counter_data:244260.08
+2017-04-11T11:42:04.511 counter_data:244261.08
+2017-04-11T11:55:13.023 counter_data:244263.48
+2017-04-11T12:00:07.990 counter_data:244263.78
+2017-04-11T12:02:06.527 counter_data:244264.52
+2017-04-11T12:02:47.804 Ошибка связи с колонкой в момент пуска насоса!
+2017-04-11T12:02:49.033 Ошибка связи с колонкой!
+2017-04-11T12:22:36.915 Ошибка связи с колонкой в момент пуска насоса!
+2017-04-11T12:22:38.141 Ошибка связи с колонкой!
+2017-04-11T16:18:16.601 Ошибка связи с колонкой!
+2017-04-11T16:26:21.411 counter_data:244270.84
+2017-04-11T16:44:36.692 Ошибка связи с колонкой в момент пуска насоса!
+2017-04-11T16:44:36.801 counter_data:244547.98
+2017-04-11T17:15:18.883 counter_data:244882.82
+2017-04-11T17:24:25.587 counter_data:244993.10
+2017-04-11T17:26:55.503 Ошибка связи с колонкой!
+2017-04-11T18:26:18.950 counter_data:245060.61
+2017-04-11T18:26:42.395 Ошибка связи с колонкой в момент пуска насоса!
+2017-04-11T18:26:42.520 counter_data:245060.61
+2017-04-11T18:27:06.498 Ошибка связи с колонкой в момент пуска насоса!
+2017-04-11T18:27:06.622 counter_data:245060.61
+2017-04-11T18:31:23.219 counter_data:245060.61
+2017-04-11T18:37:23.724 counter_data:245064.47
+2017-04-11T18:37:45.502 Exception on transaction fix 280 line java.lang.NumberFormatException: For input string: "245066.0-17"
+2017-04-11T18:39:42.549 counter_data:245073.98
+2017-04-11T18:40:33.969 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-11T18:42:48.715 counter_data:245083.40
+2017-04-11T18:43:45.550 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-11T18:45:14.298 counter_data:245088.56
+2017-04-11T18:46:54.424 Transaction fixed
+2017-04-11T18:46:54.538 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-11T18:50:38.191 counter_data:245101.83
+2017-04-11T18:53:46.401 counter_data:245107.51
+2017-04-11T18:56:32.771 counter_data:245109.13
+2017-04-11T18:57:14.464 hold protection was enabled
+2017-04-11T19:01:54.841 counter_data:245114.90
+2017-04-11T19:03:56.459 counter_data:245117.53
+2017-04-11T19:05:01.466 Exception on transaction fix 280 line java.lang.NumberFormatException: For input string: "245123.0-16"
+2017-04-11T19:05:03.193 hold protection was enabled
+2017-04-11T19:06:32.486 counter_data:245123.66
+2017-04-11T19:08:13.597 hold protection was enabled
+2017-04-13T11:32:35.110 counter_data:245131.38
+2017-04-13T12:33:13.748 counter_data:245131.38
+2017-04-13T12:34:16.783 hold protection was enabled
+2017-04-13T12:37:52.650 counter_data:245136.01
+2017-04-13T12:41:10.224 counter_data:245140.16
+2017-04-13T12:59:04.526 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:37.875 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:39.516 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:40.710 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:40.822 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:43.106 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:48.434 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:48.973 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:49.411 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:50.056 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:50.492 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:54.395 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:58.226 Exception on transaction fix 280 line java.lang.NumberFormatException: empty String
+2017-04-13T13:35:59.605 hold protection was enabled
+2017-04-13T13:36:34.240 Exception on transaction fix 280 line java.lang.NumberFormatException: For input string: "245151.0-1"
+2017-04-13T13:36:45.092 hold protection was enabled
+2017-04-13T13:38:15.131 Ошибка связи с колонкой!
+2017-04-13T13:47:52.754 counter_data:245151.15
+2017-04-13T14:03:15.181 counter_data:245159.98
+2017-04-13T14:56:58.916 counter_data:245175.47
+2017-04-13T14:58:19.118 Ошибка связи с колонкой в момент пуска насоса!
+2017-04-13T14:58:19.221 counter_data:245180.13
+2017-04-13T14:59:31.726 Ошибка связи с колонкой!
+2017-04-13T15:00:29.645 Ошибка связи с колонкой!
+2017-04-13T15:00:42.559 Ошибка связи с колонкой!
+2017-04-13T15:05:18.133 counter_data:245292.90
+2017-04-13T15:05:59.354 Ошибка связи с колонкой!
+2017-04-13T15:06:56.654 counter_data:245302.90
+2017-04-13T15:08:53.658 Ошибка связи с колонкой!
+2017-04-13T15:09:09.138 Transaction fixed
+2017-04-13T15:16:23.974 counter_data:245326.09
+2017-04-13T15:16:41.203 Ошибка связи с колонкой!
+2017-04-13T15:17:05.635 Transaction fixed
+2017-04-13T15:23:14.855 counter_data:245348.09
+2017-04-13T15:23:35.823 Ошибка связи с колонкой!
+2017-04-13T15:24:05.878 Transaction fixed
+2017-04-13T15:25:47.987 counter_data:245359.35

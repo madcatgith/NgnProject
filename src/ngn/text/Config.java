@@ -27,9 +27,9 @@ public class Config {
 
 //___________D A T A B A S E___________//
     public static final String DB_URL = "jdbc:mysql://176.111.58.218:3306/ngnsite?useUnicode=true&characterEncoding=UTF-8";//DB_HOST
-    /*public static final String DB_USER = "ngntest";//DB_LOGIN
-    public static final String DB_PASS = "NGNtest";//DP_PASSWORD
-    public static final String DB_PREFIX = "ngn_";*///DB_PREFIX
+    //public static final String DB_USER = "ngntest";//DB_LOGIN
+    //public static final String DB_PASS = "NGNtest";//DP_PASSWORD
+    //public static final String DB_PREFIX = "ngn_";//DB_PREFIX
     public static final String DB_USER = "ngnsite";//DB_LOGIN
     public static final String DB_PASS = "NGNSITEmysql";//DP_PASSWORD
     public static final String DB_PREFIX = "ngn_";//DB_PREFIX

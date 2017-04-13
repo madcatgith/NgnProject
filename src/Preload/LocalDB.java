@@ -76,7 +76,7 @@ public class LocalDB {
                     String.valueOf(rsLDB.getInt("c.coupon_id")),
                     String.valueOf(rsLDB.getString("cu.credit")),
                     String.valueOf(rsLDB.getDouble("customer_balance")),
-                    String.valueOf(rsLDB.getInt("credit_days"))
+                    String.valueOf(rsLDB.getInt("cu.credit_days"))
                 };
                 WriteWI.Write(LocalClientInfo, WriteWI.PATHLDB, true);
             }

@@ -34,7 +34,7 @@ public class SendMail {
     
     private static final String TOVALERA = "wasd.exe@gmail.com";
     private static final String TOSASHA = "";
-    private static final String TOVITYA = "info@n-g-n.com";
+    private static final String TOVITYA = "denk_v@mail.ru";
     
     private static Session mailSession;
     private static MimeMessage message;

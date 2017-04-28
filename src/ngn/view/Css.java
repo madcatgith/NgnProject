@@ -224,7 +224,7 @@ public class Css extends Ngn {
         ClientInfo.add(ClientName, gridBagConstraints);
 
         ClientLitrs.setBackground(ClientName.getBackground());
-        ClientLitrs.setFont(ClientName.getFont());
+        ClientLitrs.setFont(new Font("Candara", 1, 56));
         ClientLitrs.setForeground(ClientName.getForeground());
         ClientLitrs.setHorizontalAlignment(ClientName.getHorizontalAlignment());
         gridBagConstraints = new GridBagConstraints();
